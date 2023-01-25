@@ -1,6 +1,6 @@
 # NimGame Project
 ## The goal of this project, is to make a program that can be unbeatable at playing the nimgame
-*What is nimgame?*
+_*What is nimgame?*_
 
 NimGame is a game, played by two opponents in which the objective is to manage a way of making the other player stick with the last ball/match/etc. 
 The game can be constructed with _n_ rows, each row containing an odd number. You can find some solutions to this game rewarding the _n = 4_ case. However this code, can perform at _n_ in _{1, 2, 3, 4, 5, 6}_ levels. And can be unbeatable at this cases, depending on how many rows has the game. 
@@ -9,7 +9,7 @@ Here's an example of Nimgame with n = 4:
  
 <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/f/f6/NimGame.svg/1200px-NimGame.svg.png" width="500" height="500"> 
 
-*How can I play it using this code?*
+_*How can I play it using this code?*_
 
 First you have to upload every .java file in the same directoryp and declare this package at each file, so that the classes can call up each other. Then, the runnable file is theone called: _PlayNimGame.java_ . The default size for the game is _n_ = 4 and by default you will play against the machine, and once you run up the code, it will ask you (in Spanish) if you want to start or no, if you do type s or S (for Sí in spanish that means Yes). Once the game is over, it will ask you if you want to see the code play against itself.Then it will display the results, showing the best game possible for that _n_. If you want to change the game size, in line 5 you will find ```juego.initializeGame(4)```, all youhave to do is to change that 4 to any integer in range [1, 6]. 
 
