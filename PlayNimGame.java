@@ -1,4 +1,3 @@
-package JuegoPelotitasAI;
 import java.util.Scanner;
 public class PlayNimGame {
     public static void main(String[] args) {

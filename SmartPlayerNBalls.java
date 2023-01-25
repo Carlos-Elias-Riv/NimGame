@@ -1,5 +1,3 @@
-package JuegoPelotitasAI;
-
 public class SmartPlayerNBalls {
 
 

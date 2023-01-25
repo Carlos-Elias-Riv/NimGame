@@ -1,6 +1,3 @@
-package JuegoPelotitasAI;
-
-
 
 public class PlayNBalls {
     // Las jugadas o plays son un arreglo de n entradas, donde en la posición i hay las m pelotitas que queden en el i renglón
